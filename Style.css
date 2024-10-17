@@ -16,16 +16,20 @@ header{
 
 
 }
-#Icon{
-    color: black;
-}
 
-
-Header img{
+#HeaderImg{
     border: 5px solid #ccc;
     border-radius: 10px;
     max-width: 100%;
     height: auto;
+}
+
+#icon{
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 50px;
+    text-decoration-color: lightgray;
+    
 }
 
 nav
@@ -44,14 +48,29 @@ nav
 
 nav a:hover{
     background-color: #ccc;
+    padding: 5px;
 }
 
-h1, h2
+h1
 {
-    margin: 10px 0;
+    margin: 0 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     color: white;
     background-color: lightsteelblue;
     border: 10xp steelblue solid;
+}
+
+h2
+{
+    margin: 0 5px;
+    margin-bottom: 40px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    background-color: lightsteelblue;
+    border: 10xp steelblue solid;
+
 }
 
 main{
